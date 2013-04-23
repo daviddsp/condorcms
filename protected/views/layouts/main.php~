@@ -42,9 +42,9 @@
 						array('label'=>'Tema', 'url'=>array('/Temas_g/index')),
 						array('label'=>'Lección', 'url'=>array('/Lecciones_g/index')),
 						array('label'=>'Contenido', 'url'=>array('/Contenido_g/index')),
-						array('label'=>'Ejemplos', 'url'=>array('/Ejemplos_g/index')),
-						array('label'=>'Ejercicios', 'url'=>array('/Ejercicios_g/index')),
-						array('label'=>'Fuentes de Referencia', 'url'=>array('/Freferencias_g/index')),
+						array('label'=>'Ejemplo', 'url'=>array('/Ejemplos_g/index')),
+						array('label'=>'Ejercicio', 'url'=>array('/Ejercicios_g/index')),
+						array('label'=>'Fuente de Referencia', 'url'=>array('/Freferencias_g/index')),
 						
 						)), /* Find del menu de usuario general*/						
 						
