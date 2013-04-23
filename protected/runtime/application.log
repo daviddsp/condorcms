@@ -1,0 +1,594 @@
+2013/04/20 15:57:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "Temas/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=Temas/index
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/20 16:01:39 [error] [php] Undefined variable: gridDataProvider (/var/www/condor/protected/views/temas/admin.php:44)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): TemasController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): TemasController->renderPartial()
+#2 /var/www/condor/protected/controllers/TemasController.php(143): TemasController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): TemasController->runAction()
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): TemasController->filterAccessControl()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): TemasController->runActionWithFilters()
+#12 /var/www/yii/framework/web/CWebApplication.php(282): TemasController->run()
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/condor/index.php(13): CWebApplication->run()
+REQUEST_URI=/condor/index.php?r=temas/admin
+in /var/www/condor/protected/views/temas/admin.php (44)
+in /var/www/condor/protected/controllers/TemasController.php (143)
+in /var/www/condor/index.php (13)
+2013/04/20 16:01:47 [error] [php] Undefined variable: person (/var/www/condor/protected/views/temas/admin.php:45)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): TemasController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): TemasController->renderPartial()
+#2 /var/www/condor/protected/controllers/TemasController.php(143): TemasController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): TemasController->runAction()
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): TemasController->filterAccessControl()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): TemasController->runActionWithFilters()
+#12 /var/www/yii/framework/web/CWebApplication.php(282): TemasController->run()
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/condor/index.php(13): CWebApplication->run()
+REQUEST_URI=/condor/index.php?r=temas/admin
+in /var/www/condor/protected/views/temas/admin.php (45)
+in /var/www/condor/protected/controllers/TemasController.php (143)
+in /var/www/condor/index.php (13)
+2013/04/20 16:01:54 [error] [php] Undefined variable: gridColumns (/var/www/condor/protected/views/temas/admin.php:46)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): TemasController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): TemasController->renderPartial()
+#2 /var/www/condor/protected/controllers/TemasController.php(143): TemasController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): TemasController->runAction()
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): TemasController->filterAccessControl()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): TemasController->runActionWithFilters()
+#12 /var/www/yii/framework/web/CWebApplication.php(282): TemasController->run()
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/condor/index.php(13): CWebApplication->run()
+REQUEST_URI=/condor/index.php?r=temas/admin
+in /var/www/condor/protected/views/temas/admin.php (46)
+in /var/www/condor/protected/controllers/TemasController.php (143)
+in /var/www/condor/index.php (13)
+2013/04/20 16:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 16:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 16:06:53 [error] [exception.CException] exception 'CException' with message 'Alias "condor.Temas" es inválido. Verifique que el mismo apunta a un directorio o archivo exisitente.' in /var/www/yii/framework/YiiBase.php:341
+Stack trace:
+#0 /var/www/yii/framework/gii/generators/crud/CrudCode.php(59): YiiBase::import('condor.Temas', true)
+#1 /var/www/yii/framework/validators/CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#3 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(CrudCode), NULL)
+#4 /var/www/yii/framework/gii/CCodeGenerator.php(159): CModel->validate()
+#5 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/condor/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/condor/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/condor/index.php?r=gii/crud
+---
+2013/04/20 16:12:03 [error] [exception.CException] exception 'CException' with message 'Propiedad "TbDetailView"."dataProvider" no se encuentra definida.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TemasController), 'bootstrap.widge...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/condor/protected/views/temas/admin.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/condor...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/condor...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/condor...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/condor/protected/controllers/TemasController.php(143): CController->render('admin', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas/admin')
+#20 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /var/www/condor/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/condor/index.php?r=temas/admin
+HTTP_REFERER=http://localhost/condor/index.php?r=temas/view&id=1
+---
+2013/04/20 16:12:49 [error] [exception.CException] exception 'CException' with message 'Propiedad "TbDetailView"."dataProvider" no se encuentra definida.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TemasController), 'bootstrap.widge...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/condor/protected/views/temas/admin.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/condor...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/condor...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/condor...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/condor/protected/controllers/TemasController.php(143): CController->render('admin', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas/admin')
+#20 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /var/www/condor/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/condor/index.php?r=temas/admin
+HTTP_REFERER=http://localhost/condor/index.php?r=temas/view&id=1
+---
+2013/04/20 16:13:00 [error] [exception.CException] exception 'CException' with message 'Propiedad "TbDetailView"."dataProvider" no se encuentra definida.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TemasController), 'bootstrap.widge...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/condor/protected/views/temas/admin.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/condor...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/condor...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/condor...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/condor/protected/controllers/TemasController.php(143): CController->render('admin', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas/admin')
+#20 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /var/www/condor/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/condor/index.php?r=temas/admin
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 16:13:14 [error] [exception.CException] exception 'CException' with message 'Propiedad "TbDetailView"."dataProvider" no se encuentra definida.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TemasController), 'bootstrap.widge...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/condor/protected/views/temas/admin.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/condor...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/condor...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/condor...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/condor/protected/controllers/TemasController.php(143): CController->render('admin', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas/admin')
+#20 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /var/www/condor/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/condor/index.php?r=temas/admin
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 16:13:20 [error] [exception.CException] exception 'CException' with message 'Propiedad "TbDetailView"."dataProvider" no se encuentra definida.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TemasController), 'bootstrap.widge...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/condor/protected/views/temas/admin.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/condor...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/condor...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/condor...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/condor/protected/controllers/TemasController.php(143): CController->render('admin', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas/admin')
+#20 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /var/www/condor/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/condor/index.php?r=temas/admin
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 16:13:36 [error] [exception.CException] exception 'CException' with message 'Propiedad "TbDetailView"."dataProvider" no se encuentra definida.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TemasController), 'bootstrap.widge...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/condor/protected/views/temas/admin.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/condor...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/condor...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/condor...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/condor/protected/controllers/TemasController.php(143): CController->render('admin', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas/admin')
+#20 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /var/www/condor/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/condor/index.php?r=temas/admin
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 16:13:37 [error] [exception.CException] exception 'CException' with message 'Propiedad "TbDetailView"."dataProvider" no se encuentra definida.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TemasController), 'bootstrap.widge...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/condor/protected/views/temas/admin.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/condor...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/condor...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/condor...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/condor/protected/controllers/TemasController.php(143): CController->render('admin', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas/admin')
+#20 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /var/www/condor/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/condor/index.php?r=temas/admin
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 16:13:38 [error] [exception.CException] exception 'CException' with message 'Propiedad "TbDetailView"."dataProvider" no se encuentra definida.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TemasController), 'bootstrap.widge...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/condor/protected/views/temas/admin.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/condor...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/condor...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/condor...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/condor/protected/controllers/TemasController.php(143): CController->render('admin', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): TemasController->actionAdmin()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas/admin')
+#20 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /var/www/condor/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/condor/index.php?r=temas/admin
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 16:51:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=temas/admin
+---
+2013/04/20 17:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 18:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 20:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=temas/admin
+---
+2013/04/20 20:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/20 20:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/21 17:59:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+---
+2013/04/21 18:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "www.twitter.com" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('www.twitter.com')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('www.twitter.com')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/www.twitte...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/www.twitter.com
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/21 18:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "www.twitter.com" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('www.twitter.com')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('www.twitter.com')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/www.twitte...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/www.twitter.com
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/21 18:02:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "www.twitter.com" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('www.twitter.com')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('www.twitter.com')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/www.twitte...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/www.twitter.com
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/21 18:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "www.twitter.com" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('www.twitter.com')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('www.twitter.com')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/www.twitte...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/www.twitter.com
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/21 18:04:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "www.twitter.com" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('www.twitter.com')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('www.twitter.com')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/www.twitte...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/www.twitter.com
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/21 18:05:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Usuarios" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Usuarios')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Usuarios')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/Usuarios')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/Usuarios
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/21 18:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Usuarios" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Usuarios')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Usuarios')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/Usuarios')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/Usuarios
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/21 18:05:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Usuarios" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Usuarios')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Usuarios')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/Usuarios')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/Usuarios
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/21 18:06:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Usuarios" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Usuarios')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Usuarios')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/Usuarios')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor/index.php?r=site/Usuarios
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/22 22:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=Ejemplos/index
+---
+2013/04/22 22:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "Freferencia/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Freferencia/ind...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=Freferencia/index
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/22 22:03:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "Freferencia/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Freferencia/ind...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=Freferencia/index
+HTTP_REFERER=http://localhost/condor/index.php?r=site/index
+---
+2013/04/22 22:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=Temas/index
+---
+2013/04/22 22:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=temas_n/index
+---
+2013/04/22 22:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "temas_n/index"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('temas_n/index')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/condor/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condor/index.php?r=temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php?r=temas_n/index
+---
+2013/04/22 22:20:02 [error] [exception.CException] exception 'CException' with message 'Temas_nController no ha podido encontrar la vista "index" solicitada.' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /var/www/condor/protected/controllers/Temas_nController.php(133): CController->render('index', Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): Temas_nController->actionIndex()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas_n/index')
+#13 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /var/www/condor/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/condor/index.php?r=Temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php
+---
+2013/04/22 22:20:28 [error] [exception.CException] exception 'CException' with message 'Temas_nController no ha podido encontrar la vista "index" solicitada.' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /var/www/condor/protected/controllers/Temas_nController.php(133): CController->render('index', Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): Temas_nController->actionIndex()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas_n/index')
+#13 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /var/www/condor/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/condor/index.php?r=Temas_n/index
+HTTP_REFERER=http://localhost/condor/index.php
+---
